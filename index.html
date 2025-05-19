@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>윤지의 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Yoonji's Portfolio</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about">
+  <div class="about-container">
+    <div class="about-left">
+      <br><br>
+      <img src="img/yoonji.png" alt="윤지 캐릭터" class="avatar" />
+      <div class="tags">
+        <span>#도전적인</span>
+        <span>#열정</span>
+        <span>#역지사지</span>
+        <span>#소통</span>
+      </div>
+    </div>
+    <div class="about-right">
+         <br><br>
+          <p class ="front"><strong>프론트엔드 개발자 장윤지입니다.</strong></p>
+          <p><strong>사용자가 불편을 겪지 않도록</strong> 고려하며 <mark>역지사지 마인드</mark>로 개발합니다.</p>
+          <p><strong>소통</strong>을 중시하며 팀과의 원활한 커뮤니케이션을 통해 더 나은 결과를 추구합니다.</p>
+        </div>
+  </div>
+
+  <div class="skills-wrapper">
+    <h2>Skill & Tools</h2>
+  <div class="skills">
+    <div class="skill-category">
+      <h3>FrontEnd</h3>
+      <div class="icons">
+        <img src="icons/html.png" alt="HTML">
+        <img src="icons/css.png" alt="CSS">
+        <img src="icons/js.png" alt="JavaScript">
+        <img src="icons/react.png" alt="React">
+      </div>
+    </div>
+    <div class="skill-category">
+      <h3>Design</h3>
+      <div class="icons">
+        <img src="icons/figma.png" alt="Figma">
+      </div>
+    </div>
+    <div class="skill-category">
+      <h3>Cooperation</h3>
+      <div class="icons">
+        <img src="icons/github.png" alt="GitHub">
+        <img src="icons/notion.png" alt="Notion">
+        <img src="icons/discord.png" alt="Discord">
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+    <section id="project">
+  <div class="project-grid">
+
+
+  <section id="project">
+      <h2>Project</h2>
+      <div class="project-grid">
+
+        <div class="project-card game-card">
+          <img src="img/trashflight.png" alt="TrashFlight 썸네일">
+          <div class="project-content">
+            <h3>🚀 TrashFlight: 쓰레기 회피 게임</h3>
+            <p>날아다니며 해양 쓰레기를 피하는 아케이드 미니게임입니다.<br>
+              WebGL로 빌드하여 웹에서도 플레이 가능하도록 배포했습니다.</p>
+            <ul>
+              <li>제작 도구: Unity, C#</li>
+              <li>게임 방식: 좌우 이동, 장애물 회피, 점수 누적</li>
+            </ul>
+            <div class="project-buttons">
+              <a href="https://yunji0915.github.io/trashflight/" target="_blank" class="btn">▶ 게임 실행하기</a>
+            </div>
+          </div>
+        </div>
+
+      <div class="project-card game-card">
+          <img src="img/flappy_unitygame.png" alt="게임 썸네일">
+          <div class="project-content">
+            <h3>🐤 Flappy Bird 스타일 미니게임</h3>
+            <p>Unity로 만든 새가 장애물을 피하면서 점수를 올리는 아케이드 게임입니다.<br>
+              WebGL로 빌드하여 웹에서 바로 체험할 수 있도록 배포했습니다.</p>
+            <ul>
+              <li>제작 도구: Unity, C#</li>
+              <li>게임 방식: 장애물 통과, 점수 누적, 게임 오버</li>
+            </ul>
+            <div class="project-buttons">
+              <a href="https://yunji0915.github.io/unity-minigame/" target="_blank" class="btn">▶ 게임 실행하기</a>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="project-card">
+          <img src="img/arduino.jpg" alt="EchoVault 썸네일">
+          <div class="project-content">
+            <h3>🔐 EchoVault Lock (IoT + HTML 연동 프로젝트)</h3>
+            <p>아두이노와 웹 인터페이스를 연동하여 도어락 시뮬레이션을 구현한 프로젝트입니다.<br>
+              HTML로 구성된 프레젠테이션 페이지도 제작했습니다.</p>
+            <ul>
+              <li>사용 기술: Arduino, HTML/CSS</li>
+              <li>페이지 구성: 주제, 회로, 부품, 테스트 영상 등</li>
+            </ul>
+            <div class="project-buttons">
+              <a href="https://github.com/yunji0915/iot-html-project" target="_blank" class="btn">🔗 GitHub 보기</a>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="project-card">
+          <img src="img/result1.png" alt="해양쓰레기 탐지 인터페이스">
+          <div class="project-content">
+            <h3>🌊 실시간 해양 쓰레기 탐지 & 지도 플랫폼</h3>
+            <p><strong>YOLOv8 객체 탐지</strong> + <strong>드론 제어</strong> +
+              <strong>지도 위치 전송</strong> + <strong>텔레그램 실시간 알림</strong>까지!<br>
+              드론으로 촬영한 해양 쓰레기를 AI로 분석하고, 시각화 + 알림까지 자동화한 통합 플랫폼입니다.</p>
+            <ul>
+              <li>🛰 DJI Tello 드론 실시간 제어</li>
+              <li>🧠 Roboflow로 학습된 YOLOv8 모델</li>
+              <li>🗺 지도에 쓰레기 위치 자동 마킹</li>
+              <li>📩 Telegram으로 탐지 이미지 실시간 전송</li>
+              <li>🖥 Tkinter GUI & PyWebView 통합</li>
+            </ul>
+            <div class="project-buttons">
+              <a href="https://github.com/yunji0915/ocean_trash_platform" class="btn" target="_blank">🔗 GitHub 보기</a>
+              <a href="img/result2.png" class="btn" target="_blank">📷 텔레그램 예시</a>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 이메일: <strong>yoonji@example.com</strong></p>
+      <p>🌐 GitHub: <a href="https://github.com/yunji0915" target="_blank">github.com/yunji0915</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Yoonji. All rights reserved.
+  </footer>
+
+</body>
+</html>
